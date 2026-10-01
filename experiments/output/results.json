@@ -1,0 +1,173 @@
+{
+  "setup": {
+    "n": 100000,
+    "dim": 384,
+    "queries": 500,
+    "k": 10,
+    "hnsw_m": 16,
+    "ef_construction": 200,
+    "hnsw_build_seconds": 14.945318531999874,
+    "faiss_version": "1.15.1"
+  },
+  "exact_ms": 8.551160108000204,
+  "hnsw_sweep": [
+    {
+      "ef_search": 16,
+      "recall_at_10": 0.896,
+      "ms": 0.07414858599986474
+    },
+    {
+      "ef_search": 32,
+      "recall_at_10": 0.9756,
+      "ms": 0.10387001399976725
+    },
+    {
+      "ef_search": 64,
+      "recall_at_10": 0.997,
+      "ms": 0.16218801000013627
+    },
+    {
+      "ef_search": 128,
+      "recall_at_10": 1.0,
+      "ms": 0.255140350000147
+    },
+    {
+      "ef_search": 256,
+      "recall_at_10": 1.0,
+      "ms": 0.3816933960001734
+    },
+    {
+      "ef_search": 512,
+      "recall_at_10": 1.0,
+      "ms": 0.623132958000042
+    }
+  ],
+  "filtered": [
+    {
+      "selectivity": 0.5,
+      "matching_vectors": 49875,
+      "post_filter": {
+        "recall": 0.9996,
+        "ms": 0.3280292119998194,
+        "avg_results": 10.0
+      },
+      "filter_in_traversal": {
+        "recall": 0.9996,
+        "ms": 0.29781213599972034,
+        "avg_results": 10.0
+      },
+      "exact_on_subset": {
+        "recall": 1.0,
+        "ms": 2.8112864019999506
+      }
+    },
+    {
+      "selectivity": 0.2,
+      "matching_vectors": 20323,
+      "post_filter": {
+        "recall": 0.999,
+        "ms": 0.32569394199981616,
+        "avg_results": 9.998
+      },
+      "filter_in_traversal": {
+        "recall": 0.9992,
+        "ms": 0.26687295199963046,
+        "avg_results": 10.0
+      },
+      "exact_on_subset": {
+        "recall": 1.0,
+        "ms": 1.1863762459997815
+      }
+    },
+    {
+      "selectivity": 0.1,
+      "matching_vectors": 10126,
+      "post_filter": {
+        "recall": 0.8868,
+        "ms": 0.31916569199984224,
+        "avg_results": 8.876
+      },
+      "filter_in_traversal": {
+        "recall": 0.998,
+        "ms": 0.2758276899999146,
+        "avg_results": 10.0
+      },
+      "exact_on_subset": {
+        "recall": 1.0,
+        "ms": 0.6003849799999443
+      }
+    },
+    {
+      "selectivity": 0.05,
+      "matching_vectors": 5045,
+      "post_filter": {
+        "recall": 0.4988,
+        "ms": 0.42445140600011655,
+        "avg_results": 4.988
+      },
+      "filter_in_traversal": {
+        "recall": 0.993,
+        "ms": 0.2803903819999505,
+        "avg_results": 10.0
+      },
+      "exact_on_subset": {
+        "recall": 1.0,
+        "ms": 0.2998058400003174
+      }
+    },
+    {
+      "selectivity": 0.01,
+      "matching_vectors": 1027,
+      "post_filter": {
+        "recall": 0.1084,
+        "ms": 0.3226101259997449,
+        "avg_results": 1.084
+      },
+      "filter_in_traversal": {
+        "recall": 0.8404,
+        "ms": 0.271497680000266,
+        "avg_results": 9.204
+      },
+      "exact_on_subset": {
+        "recall": 1.0,
+        "ms": 0.04016090200002509
+      }
+    },
+    {
+      "selectivity": 0.005,
+      "matching_vectors": 486,
+      "post_filter": {
+        "recall": 0.0484,
+        "ms": 0.32707535400004417,
+        "avg_results": 0.484
+      },
+      "filter_in_traversal": {
+        "recall": 0.5098,
+        "ms": 0.26375238000036916,
+        "avg_results": 5.244
+      },
+      "exact_on_subset": {
+        "recall": 1.0,
+        "ms": 0.017685130000245408
+      }
+    },
+    {
+      "selectivity": 0.001,
+      "matching_vectors": 77,
+      "post_filter": {
+        "recall": 0.0054,
+        "ms": 0.30970099800015305,
+        "avg_results": 0.054
+      },
+      "filter_in_traversal": {
+        "recall": 0.0876,
+        "ms": 0.26124825800025064,
+        "avg_results": 0.88
+      },
+      "exact_on_subset": {
+        "recall": 1.0,
+        "ms": 0.008203815999877406
+      }
+    }
+  ]
+}
