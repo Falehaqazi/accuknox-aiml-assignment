@@ -1,0 +1,16 @@
+{
+  "exam": "Mid-term examination",
+  "max_score": 100,
+  "students": [
+    {"id": 1,  "name": "Aditi Rao",      "scores": {"Mathematics": 88, "Physics": 79, "Chemistry": 84,   "English": 91}},
+    {"id": 2,  "name": "Dev Malhotra",   "scores": {"Mathematics": 64, "Physics": 58, "Chemistry": 71,   "English": 69}},
+    {"id": 3,  "name": "Ira Banerjee",   "scores": {"Mathematics": 95, "Physics": 92, "Chemistry": 89,   "English": 87}},
+    {"id": 4,  "name": "Kunal Mehta",    "scores": {"Mathematics": 72, "Physics": 77, "Chemistry": "AB", "English": 68}},
+    {"id": 5,  "name": "Mansi Joshi",    "scores": {"Mathematics": 81, "Physics": 86, "Chemistry": 90,   "English": 78}},
+    {"id": 6,  "name": "Nikhil Pandey",  "scores": {"Mathematics": 49, "Physics": 55, "Chemistry": 61,   "English": 66}},
+    {"id": 7,  "name": "Rhea Kapoor",    "scores": {"Mathematics": 77, "Physics": 70, "Chemistry": 74,   "English": 85}},
+    {"id": 8,  "name": "Sameer Qureshi", "scores": {"Mathematics": 90, "Physics": 84, "Chemistry": 79,   "English": 73}},
+    {"id": 9,  "name": "Tanvi Kulkarni", "scores": {"Mathematics": 68, "Physics": 74, "Chemistry": 80,   "English": 88}},
+    {"id": 10, "name": "Yash Agarwal",   "scores": {"Mathematics": 58, "Physics": 63, "Chemistry": 57,   "English": 72}}
+  ]
+}

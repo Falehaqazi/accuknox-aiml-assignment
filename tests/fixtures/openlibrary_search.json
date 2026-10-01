@@ -1,0 +1,81 @@
+{
+  "numFound": 9,
+  "start": 0,
+  "numFoundExact": true,
+  "docs": [
+    {
+      "key": "/works/OL0000001W",
+      "title": "The C Programming Language",
+      "author_name": [
+        "Brian W. Kernighan",
+        "Dennis M. Ritchie"
+      ],
+      "first_publish_year": 1978
+    },
+    {
+      "key": "/works/OL0000002W",
+      "title": "Structure and Interpretation of Computer Programs",
+      "author_name": [
+        "Harold Abelson",
+        "Gerald Jay Sussman"
+      ],
+      "first_publish_year": 1985
+    },
+    {
+      "key": "/works/OL0000003W",
+      "title": "The Pragmatic Programmer",
+      "author_name": [
+        "Andrew Hunt",
+        "David Thomas"
+      ],
+      "first_publish_year": 1999
+    },
+    {
+      "key": "/works/OL0000004W",
+      "title": "Fluent Python",
+      "author_name": [
+        "Luciano Ramalho"
+      ],
+      "first_publish_year": 2015
+    },
+    {
+      "key": "/works/OL0000005W",
+      "title": "Python Crash Course",
+      "author_name": [
+        "Eric Matthes"
+      ],
+      "first_publish_year": 2015
+    },
+    {
+      "key": "/works/OL0000006W",
+      "title": "Automate the Boring Stuff with Python",
+      "author_name": [
+        "Al Sweigart",
+        "Al Sweigart"
+      ],
+      "first_publish_year": 2015
+    },
+    {
+      "key": "/works/OL0000007W",
+      "title": "Design Patterns",
+      "author_name": [
+        "Erich Gamma",
+        "Richard Helm",
+        "Ralph Johnson",
+        "John Vlissides"
+      ],
+      "first_publish_year": 1994
+    },
+    {
+      "key": "/works/OL0000008W",
+      "title": "  Programming   Notes  "
+    },
+    {
+      "key": "/works/OL0000009W",
+      "author_name": [
+        "Nobody"
+      ],
+      "first_publish_year": 2001
+    }
+  ]
+}
